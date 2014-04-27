@@ -76,7 +76,7 @@ y <- merge(y, activity_labels, by = "activity_id", sort = FALSE)
 
 dataset <- cbind(dataset, y)
 
-write.table(dataset, "tidy_dataset.txt")
+write.table(dataset, "tidy_dataset.txt", row.names = FALSE)
 
 
 ######################################################################
