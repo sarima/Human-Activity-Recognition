@@ -15,7 +15,7 @@ The following data files need to be in a "train" directory in your workspace:
 Tha same applies for subject\_test.txt, X\_test.txt and y\_test.txt which should be in a "test"
 directory.
 
-"run\_analysis.R"" will generate a tidy dataset called "tidy\_dataset.txt" in your workspace.
+"run\_analysis.R" will generate a tidy dataset called "tidy\_dataset.txt" in your workspace.
 
 See "CodeBook.md" for further details on variables descriptions.
 

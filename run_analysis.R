@@ -90,5 +90,5 @@ ave_dataset <- aggregate(dataset[, -c(1, n-1, n)],
                          by = list(subject_ID = dataset$subject_ID, activity = dataset$activity_label),
                          mean)
 
-
+write.table(ave_dataset, "ave_tidy_dataset.txt", row.names = FALSE)
 
